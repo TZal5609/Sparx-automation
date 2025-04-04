@@ -1,42 +1,47 @@
 # Sparx Maths Automation Tool
 
+# Sparx Maths Automation Tool
+
 A Python script that automatically completes tasks on Sparx Maths platform.
 
 ## Features
 
 ### Core Automation
-- Auto-login with saved credentials
-- Intelligent task detection (skips completed tasks)
-- Handles both normal and Bookwork questions
-- Automatic answer submission
-- Progress tracking
+- ✅ Auto-login with saved credentials
+- 🔍 Intelligent task detection (skips completed tasks)
+- 📚 Handles both normal and Bookwork questions
+- ⚡ Automatic answer submission
+- 📊 Progress tracking
 
 ### Technical Implementation
 - **Precise Element Location**:
-  - XPath-based DOM navigation
-  - CSS selector fallbacks
-  - Dynamic waiting system
+  - 🎯 XPath-based DOM navigation
+  - 🛡️ CSS selector fallbacks
+  - ⏳ Dynamic waiting system
 - **Error Recovery**:
-  - Network interruption handling
-  - Stale element protection
-  - Auto-retry failed operations
+  - 🌐 Network interruption handling
+  - 💀 Stale element protection
+  - 🔄 Auto-retry failed operations
 - **Browser Control**:
-  - Smooth scrolling simulation
-  - Human-like interaction timing
-  - Headless mode support
+  - 🖱️ Smooth scrolling simulation
+  - ⏱️ Human-like interaction timing
+  - 👻 Headless mode support
 
 ## Requirements
 - Python 3.8+
 - Chrome/Firefox browser
 - Required packages:
-selenium
-pyautogui
-cryptography
+  ```plaintext
+  selenium
+  pyautogui
+  cryptography
+Installation
+Clone repository:
 
-## Installation
-1. Clone repository:
- ```bash
- git clone https://github.com/yourusername/sparx-automation.git
+bash
+Copy
+git clone https://github.com/yourusername/sparx-automation.git
+cd sparx-automation
 Install dependencies:
 
 bash
@@ -49,20 +54,18 @@ bash
 Copy
 python main.py [--headless] [--bookwork]
 Options:
---headless: Run without browser GUI
-
---bookwork: Prioritize Bookwork questions
-
+Flag	Description
+--headless	Run without browser GUI
+--bookwork	Prioritize Bookwork questions
 Logging
-Detailed activity logs in /logs
+📝 Detailed activity logs in /logs
 
-Screenshots on error (in /errors)
+📸 Screenshots on error (in /errors)
 
-Runtime metrics recording
+📈 Runtime metrics recording
 
 Disclaimer
-This tool is for educational purposes only. Use responsibly and in compliance with Sparx Maths' terms of service.
-
+⚠️ Note: This tool is for educational purposes only. Use responsibly and in compliance with Sparx Maths' terms of service.
 
 
 
