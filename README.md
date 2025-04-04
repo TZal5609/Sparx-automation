@@ -1,17 +1,44 @@
-# Sparx-automation
-Uses ai to answer the question on the canvas and then does the bookwork checks automatically and other question automatically
-This is only a test project and will be completed slowly
+```markdown
+# 🔥 Sparx Maths Auto-Solver  
+*A zero-config Python bot that works out of the box*  
 
-**Functions:**
-`Auto Question Answering`
-`Auto Bookwork Checks`   
+## 🚀 **INSTALL & RUN**  
+```bash
+# COPY-PASTE THESE 3 COMMANDS:
+git clone https://github.com/yourusername/sparx-bot.git
+cd sparx-bot
+python main.py
+```
+*(First run will ask for your Sparx login)*  
 
-***Future Functions:***
-`Automatic completion of every single task`
-`Compatible with uncompolsary` -- **AFK** leaderboard grinder
-`Compatible with phones`
-`Randomley timed answers to look more legit` -- Will be able to be customised to fit your normal time
+## ✨ **FEATURES**  
+- 📸 **Ez debugging** - Screenshots on error (in /errors)
+- 📈 **Keep Track** - Runtime metrics recording
+- ✅ **Automatic login** - (credentials entered at runtime)
+- 🔍 **Finds and completes unfinished tasks** - just let it run
+- 🔑 **No config files** - Enter credentials when you first run  
+- 🤖 **Smart detection** - Finds unfinished work automatically  
+- ⚡ **Realistic timing** - Human-like delays between actions  
+- 🛡️ **Self-healing** - Recovers from errors without crashing  
 
+## 🎛️ **COMMAND OPTIONS**  
+```bash
+python main.py --headless  # Run invisibly  
+python main.py --fast      # Bypass human delays  
+python main.py --bookwork  # Do Bookwork first  
+```
 
+## 📂 **WHAT'S INCLUDED**  
+```
+main.py             - Main bot script  
+requirements.txt    - Just 2 dependencies (selenium+pyautogui)  
+/logs               - Created automatically:  
+   ├── last_run.log  
+   └── errors/      # Screenshots if anything fails  
+```
 
+## ⚠️ **NOTE**  
+For educational purposes only. Tested on Windows 10/11 and Ubuntu.  
 
+<sub>📅 Dec 2023 | 🐍 Python 3.8+ | 🌐 Chrome/Firefox required</sub>  
+```
