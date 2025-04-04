@@ -1,0 +1,6 @@
+.env
+*.png
+temp_screenshot.png
+/chromedriver
+/chromedriver.exe
+__pycache__/

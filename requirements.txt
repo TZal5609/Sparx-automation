@@ -1,0 +1,6 @@
+selenium>=4.0
+webdriver-manager
+opencv-python
+pillow
+openai
+python-dotenv
