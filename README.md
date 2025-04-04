@@ -1,71 +1,42 @@
-# Sparx Maths Automation Tool
+```markdown
+# 🔥 Sparx Maths Auto-Solver  
+*A zero-config Python bot that works out of the box*  
 
-# Sparx Maths Automation Tool
+## 🚀 **INSTALL & RUN**  
+```bash
+# COPY-PASTE THESE 3 COMMANDS:
+git clone https://github.com/yourusername/sparx-bot.git
+cd sparx-bot
+python main.py
+```
+*(First run will ask for your Sparx login)*  
 
-A Python script that automatically completes tasks on Sparx Maths platform.
+## ✨ **FEATURES**  
+- ✅ Automatic login (credentials entered at runtime)
+- 🔍 Finds and completes unfinished tasks
+- 🔑 **No config files** - Enter credentials when you first run  
+- 🤖 **Smart detection** - Finds unfinished work automatically  
+- ⚡ **Realistic timing** - Human-like delays between actions  
+- 🛡️ **Self-healing** - Recovers from errors without crashing  
 
-## Features
+## 🎛️ **COMMAND OPTIONS**  
+```bash
+python main.py --headless  # Run invisibly  
+python main.py --fast      # Bypass human delays  
+python main.py --bookwork  # Do Bookwork first  
+```
 
-### Core Automation
-- ✅ Auto-login with saved credentials
-- 🔍 Intelligent task detection (skips completed tasks)
-- 📚 Handles both normal and Bookwork questions
-- ⚡ Automatic answer submission
-- 📊 Progress tracking
+## 📂 **WHAT'S INCLUDED**  
+```
+main.py             - Main bot script  
+requirements.txt    - Just 2 dependencies (selenium+pyautogui)  
+/logs               - Created automatically:  
+   ├── last_run.log  
+   └── errors/      # Screenshots if anything fails  
+```
 
-### Technical Implementation
-- **Precise Element Location**:
-  - 🎯 XPath-based DOM navigation
-  - 🛡️ CSS selector fallbacks
-  - ⏳ Dynamic waiting system
-- **Error Recovery**:
-  - 🌐 Network interruption handling
-  - 💀 Stale element protection
-  - 🔄 Auto-retry failed operations
-- **Browser Control**:
-  - 🖱️ Smooth scrolling simulation
-  - ⏱️ Human-like interaction timing
-  - 👻 Headless mode support
+## ⚠️ **NOTE**  
+For educational purposes only. Tested on Windows 10/11 and Ubuntu.  
 
-## Requirements
-- Python 3.8+
-- Chrome/Firefox browser
-- Required packages:
-  ```plaintext
-  selenium
-  pyautogui
-  cryptography
-Installation
-Clone repository:
-
-bash
-Copy
-git clone https://github.com/yourusername/sparx-automation.git
-cd sparx-automation
-Install dependencies:
-
-bash
-Copy
-pip install -r requirements.txt
-Configure credentials in config.ini
-
-Usage
-bash
-Copy
-python main.py [--headless] [--bookwork]
-Options:
-Flag	Description
---headless	Run without browser GUI
---bookwork	Prioritize Bookwork questions
-Logging
-📝 Detailed activity logs in /logs
-
-📸 Screenshots on error (in /errors)
-
-📈 Runtime metrics recording
-
-Disclaimer
-⚠️ Note: This tool is for educational purposes only. Use responsibly and in compliance with Sparx Maths' terms of service.
-
-
-
+<sub>📅 Dec 2023 | 🐍 Python 3.8+ | 🌐 Chrome/Firefox required</sub>  
+```
